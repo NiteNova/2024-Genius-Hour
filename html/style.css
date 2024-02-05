@@ -66,8 +66,6 @@ ul li a:hover {
 .header-content {
     text-align: center;
     padding-left: 20px;
-    float: left;
-    padding-top: 150px;
 }
 
 .btn {
@@ -76,4 +74,9 @@ ul li a:hover {
     background-color: rgb(216, 34, 74);
     color: #fff;
     padding: 10px 20px;
+}
+
+.cats {
+    display: flex;
+
 }
