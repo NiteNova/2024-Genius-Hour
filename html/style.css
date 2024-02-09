@@ -64,7 +64,9 @@ ul li a:hover {
 }
 
 .header-content {
-    text-align: center;
+    position: absolute;
+    left: 75%;
+    top: 13%;
     padding-left: 20px;
 }
 
@@ -78,5 +80,15 @@ ul li a:hover {
 
 .cats {
     display: flex;
+    justify-content: center;
+    height: 100%;
+}
 
+.random_cats {
+    width: 40%;
+}
+
+img {
+    max-width: 700px;
+    height: 30rem;
 }
