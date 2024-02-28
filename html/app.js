@@ -1,4 +1,5 @@
-const url = "http://thecatapi.com/api/images/get?format=src&type=gif"
+// const url = "https://thecatapi.com/api/images/get?format=src&type=gif"
+const url = "https://api.thecatapi.com/v1/images/search"
 
 const section = document.querySelector(".container");
 const button = document.querySelector(".btn");
