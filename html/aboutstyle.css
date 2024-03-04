@@ -70,23 +70,6 @@ ul li a:hover {
     padding-left: 20px;
 }
 
-.btn {
-    background: transparent;
-    border: none;
-    background-color: rgb(216, 34, 74);
-    color: #fff;
-    padding: 10px 20px;
-}
-
-.cats {
-    display: flex;
-    justify-content: center;
-    height: 100%;
-}
-
-.random_cats {
-    width: 40%;
-}
 
 img {
     position: absolute;
