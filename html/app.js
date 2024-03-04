@@ -1,4 +1,3 @@
-// const url = "https://thecatapi.com/api/images/get?format=src&type=gif"
 const url = "https://api.thecatapi.com/v1/images/search"
 
 const section = document.querySelector(".container");
@@ -10,7 +9,7 @@ randomCatGif = (json) => {
     let photo = json[0].url;
     section.classList.add('cats');
 
-    let image = document.Element('img');
+    let image = document.createElement('img');
     image.src = photo;
     image.classList.add('random_cats');
     image.alt = photo;
