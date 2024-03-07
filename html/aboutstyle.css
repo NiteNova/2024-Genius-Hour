@@ -70,17 +70,33 @@ ul li a:hover {
     padding-left: 20px;
 }
 
+.about-container {
+    background: transparent;
+    border-color: #ad6767;
+    border-style: solid;
+    max-width: fit-content;
+    border-radius: 1.5rem;
+    margin-left: 30px;
+    margin-top: 27px;
+}
+
+.about-container p {
+    font-size: 3rem;
+    color: #fff;
+    position: relative;
+    padding-left: 20px;
+    font-family: monospace;
+}
 
 
 .container {
     background: transparent;
-    border-color: #f17e7e;
+    border-color: #ad6767;
     border-style: solid;
     max-width: 1000px;
-    border-radius: 1.5rem;
-    user-select: none;
+    border-radius: 1.2rem;
     margin-left: 60px;
-    margin-top: 27px;
+    margin-top: 20px;
 }
 
 .container p {
@@ -88,5 +104,5 @@ ul li a:hover {
     color: #fff;
     position: relative;
     padding-left: 20px;
-    font-family: sans-serif;
+    font-family: Lucida Console;
 }
