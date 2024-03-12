@@ -17,6 +17,10 @@
     margin: auto;
 }
 
+.navbar a:visited {
+    color: white;
+}
+
 .icon {
     width: 270px;
     float: left;
@@ -36,6 +40,7 @@
     float: left;
     height: 70px;
 }
+
 
 ul {
     float: left;
@@ -63,6 +68,7 @@ ul li a:hover {
     color: #f17e7e
 }
 
+
 .header-content {
     position: absolute;
     left: 75%;
@@ -71,11 +77,11 @@ ul li a:hover {
 }
 
 .about-container {
-    background: transparent;
+    background: #FFBF0050;
     border-color: #ad6767;
     border-style: solid;
     max-width: fit-content;
-    border-radius: 1.5rem;
+
     margin-left: 30px;
     margin-top: 27px;
 }
@@ -90,11 +96,10 @@ ul li a:hover {
 
 
 .container {
-    background: transparent;
+    background: #ff550050;
     border-color: #ad6767;
     border-style: solid;
     max-width: 1000px;
-    border-radius: 1.2rem;
     margin-left: 60px;
     margin-top: 20px;
 }
@@ -105,4 +110,8 @@ ul li a:hover {
     position: relative;
     padding-left: 20px;
     font-family: Lucida Console;
+}
+
+a:visited {
+    color: cyan;
 }
